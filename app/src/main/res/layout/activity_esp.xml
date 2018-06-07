@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EspActivity">
+
+    <EditText
+        android:id="@+id/linaid"
+        android:layout_width="51dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <EditText
+        android:id="@+id/linpid"
+        android:layout_width="51dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <EditText
+        android:id="@+id/ramdid"
+        android:layout_width="51dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <EditText
+        android:id="@+id/lingsmid"
+        android:layout_width="51dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="249dp" />
+
+    <EditText
+        android:id="@+id/ramipid"
+        android:layout_width="51dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="417dp" />
+
+    <EditText
+        android:id="@+id/ramaid"
+        android:layout_width="51dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="304dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/analogicas"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="@string/matriz"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/digitais"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ip"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gsm"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ramaisa"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ramaisd"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="370dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ramaisip"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="425dp" />
+
+    <Switch
+        android:id="@+id/filialid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/filiais"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <EditText
+        android:id="@+id/lindid"
+        android:layout_width="51dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="138dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resultado"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="463dp" />
+
+</android.support.constraint.ConstraintLayout>
